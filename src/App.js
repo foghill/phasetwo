@@ -1,10 +1,15 @@
+import React from "react";
+import CardList from "./CardList";
+import {characters} from './characters.js'
+import './App.css'
 
-function App() {
+export default function App() {
+
+
   return (
     <div>
-      <h1>Hello World</h1>
+      <h1>Characters</h1>
+      <CardList characters={characters} />
     </div>
   );
 }
-
-export default App;
